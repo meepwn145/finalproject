@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03DAC5"> <!-- Use the color code for sky blue -->
+
+    <Button
+        android:id="@+id/btnAddPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Pet"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btnScheduleAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule Appointment"
+        android:layout_below="@id/btnAddPet"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnReminderNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminder Notifications"
+        android:layout_below="@id/btnScheduleAppointment"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnPetHealthTracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Health Tracker"
+        android:layout_below="@id/btnReminderNotifications"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnPetCareTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Care Tips"
+        android:layout_below="@id/btnPetHealthTracker"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

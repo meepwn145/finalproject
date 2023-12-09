@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03DAC5">
+
+<Button
+        android:id="@+id/btnFeedingReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Feeding Reminder" />
+
+    <Button
+        android:id="@+id/btnVetAppointmentReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFeedingReminder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Vet Appointment Reminder" />
+
+    <Button
+        android:id="@+id/btnReminderNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnVetAppointmentReminder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Reminder Notifications" />
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/btnReminderNotifications"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
